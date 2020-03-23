@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+
+<suite name="HomeDepot">
+	<test name="BootCamp2">
+
+
+
+		<parameter name="ema" value="parvez.kakar@gmail.com"></parameter>
+		<parameter name="pas" value="Bootcamp@123"></parameter>
+		<parameter name="zipe" value="22314"></parameter>
+		<parameter name="phon" value="xxxxxxxxxx"></parameter>
+
+		<classes>
+			<class name="HomeDepot.HDexecuter"></class>
+		</classes>
+
+	</test>
+</suite>
